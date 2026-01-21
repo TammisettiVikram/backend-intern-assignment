@@ -3,7 +3,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project implements a **secure, scalable REST API** with **JWT-based authentication**, **role-based access control**, and **CRUD operations** on a secondary entity (**Tasks**).  
 A **basic but functional React frontend** is included to demonstrate and interact with the APIs.
@@ -12,7 +12,7 @@ The project follows **industry best practices** in backend architecture, securit
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 ### Backend
 - Python
@@ -30,7 +30,7 @@ The project follows **industry best practices** in backend architecture, securit
 
 ---
 
-## ✅ Core Features Implemented
+## Core Features Implemented
 
 ### Backend (Primary Focus)
 
@@ -79,11 +79,11 @@ The project follows **industry best practices** in backend architecture, securit
 ### Admin Access
 - at directory \backend
 - python make_admin.py user@example.com
-(or)
+How to check
 - By visiting
 http://localhost:8000/docs
 - And clicking Authorize
-Giving credentials of a user to make that user as an admin
+Giving credentials of a user to make that user as an admin (usually access token of that user)
 
 ---
 
@@ -114,17 +114,24 @@ python -m venv venv
 venv\Scripts\activate   # Windows
 pip install -r requirements.txt
 
+---
+
 ### Create .env file
+
 DATABASE_URL=postgresql://<username>:<password>@localhost:5432/intern_assignment
 SECRET_KEY=your_secret_key
 ALGORITHM=HS256
 ACCESS_TOKEN_EXPIRE_MINUTES=30
+
+---
 
 ### Run the backend:
 python -m uvicorn app.main:app --reload
 
 ### Swagger documentation:
 http://localhost:8000/docs
+
+---
 
 ### Frontend Setup
 cd frontend
@@ -133,6 +140,8 @@ npm start
 
 ### Frontend runs at:
 http://localhost:3000
+
+---
 
 ### API Endpoints
 Authentication
@@ -149,6 +158,8 @@ Tasks
 - PUT /api/v1/tasks/{id} – Update task
 - DELETE /api/v1/tasks/{id} – Delete task
 
+---
+
 ### Application log files are included in the repository under:
 backend/logs/app.log
 
@@ -158,6 +169,8 @@ backend/logs/app.log
 - Warnings and errors
 - Health checks
 
+---
+
 ### Scalability Notes
 - Stateless Authentication: JWT-based auth enables horizontal scaling behind   load balancers.
 - Modular Architecture: Separation of concerns (models, schemas, services APIs) allows easy feature expansion.
@@ -166,6 +179,8 @@ backend/logs/app.log
 - Microservice separation (Auth, Tasks)
 - Containerization using Docker
 - Centralized logging and monitoring
+
+---
 
 ### Deliverables Covered
 
@@ -182,6 +197,8 @@ backend/logs/app.log
 - Application logs included
 
 - Scalability considerations documented
+
+---
 
 ### Conclusion
 This project fulfills all the requirements of the Backend Developer Intern assignment by focusing on secure API design, clean architecture, and scalability, while providing a minimal frontend to demonstrate functionality.

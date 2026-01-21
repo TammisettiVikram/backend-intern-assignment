@@ -1,83 +1,77 @@
-2026-01-19 16:24:56,528 INFO Root endpoint accessed
-2026-01-19 16:47:55,849 INFO Database initialized
-2026-01-19 18:31:46,329 INFO Database initialized
-2026-01-19 18:33:53,674 WARNING (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Users\vikra\backend-intern-assignment\backend\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2026-01-19 18:47:05,825 INFO Database initialized
-2026-01-19 18:47:33,005 WARNING (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Users\vikra\backend-intern-assignment\backend\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2026-01-19 20:59:05,065 INFO Database initialized
-2026-01-19 21:01:04,824 WARNING (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Users\vikra\backend-intern-assignment\backend\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2026-01-19 21:03:57,597 INFO Database initialized
-2026-01-19 21:04:40,174 WARNING (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Users\vikra\backend-intern-assignment\backend\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2026-01-19 21:06:23,805 INFO Database initialized
-2026-01-19 21:06:26,713 INFO Database initialized
-2026-01-19 21:06:54,647 INFO Database initialized
-2026-01-19 21:06:57,584 INFO Database initialized
-2026-01-19 21:07:00,492 INFO Database initialized
-2026-01-19 21:07:26,305 INFO Database initialized
-2026-01-19 21:07:51,728 WARNING (trapped) error reading bcrypt version
-Traceback (most recent call last):
-  File "C:\Users\vikra\backend-intern-assignment\backend\venv\lib\site-packages\passlib\handlers\bcrypt.py", line 620, in _load_backend_mixin
-    version = _bcrypt.__about__.__version__
-AttributeError: module 'bcrypt' has no attribute '__about__'
-2026-01-19 21:13:21,173 INFO Database initialized
-2026-01-19 21:13:24,213 INFO Database initialized
-2026-01-19 21:15:56,324 INFO Database initialized
-2026-01-19 21:34:39,785 INFO Database initialized
-2026-01-19 21:38:45,586 INFO Root endpoint accessed
-2026-01-19 21:46:17,068 INFO Database initialized
-2026-01-19 21:46:26,390 INFO Database initialized
-2026-01-19 21:46:33,601 INFO Database initialized
-2026-01-19 21:46:38,612 INFO Database initialized
-2026-01-19 21:47:42,264 INFO Database initialized
-2026-01-19 21:51:22,438 INFO Database initialized
-2026-01-19 21:51:23,660 INFO Database initialized
-2026-01-19 21:53:21,133 INFO Database initialized
-2026-01-19 21:58:25,875 INFO Database initialized
-2026-01-19 21:58:29,369 INFO Database initialized
-2026-01-19 21:58:56,484 INFO Database initialized
-2026-01-19 22:18:54,972 INFO Database initialized
-2026-01-19 22:38:52,173 INFO Database initialized
-2026-01-20 10:25:36,392 INFO Database initialized
-2026-01-20 10:49:46,954 INFO Database initialized
-2026-01-20 11:01:16,519 INFO Database initialized
-2026-01-20 11:06:23,603 INFO Database initialized
-2026-01-20 11:06:25,270 INFO Database initialized
-2026-01-20 11:07:18,977 INFO Database initialized
-2026-01-20 11:13:15,644 INFO Database initialized
-2026-01-20 11:16:16,664 INFO Database initialized
-2026-01-20 11:16:25,672 INFO Database initialized
-2026-01-20 11:16:47,416 INFO Database initialized
-2026-01-20 11:16:52,561 INFO Database initialized
-2026-01-20 11:16:57,783 INFO Database initialized
-2026-01-20 11:16:59,030 INFO Database initialized
-2026-01-20 11:17:00,275 INFO Database initialized
-2026-01-20 11:17:07,080 INFO Database initialized
-2026-01-20 11:17:14,406 INFO Database initialized
-2026-01-20 11:17:17,301 INFO Database initialized
-2026-01-20 11:17:18,529 INFO Database initialized
-2026-01-20 11:17:36,461 INFO Database initialized
-2026-01-20 11:17:40,658 INFO Database initialized
-2026-01-20 16:27:19,173 - root - INFO - Database tables verified/created successfully.
-2026-01-20 16:33:41,651 - root - INFO - Database tables verified/created successfully.
-2026-01-20 16:33:44,601 - root - INFO - Database tables verified/created successfully.
-2026-01-20 16:35:43,903 - root - INFO - Database tables verified/created successfully.
-2026-01-20 16:36:40,013 - root - INFO - Database tables verified/created successfully.
-2026-01-20 16:41:45,571 - root - INFO - Database tables verified/created successfully.
-2026-01-20 16:43:16,160 - root - INFO - Health check endpoint accessed
-2026-01-20 16:49:52,341 - root - INFO - Database tables verified/created successful
+2026-01-21 10:49:57,039 - app - INFO - Starting Scalable Intern API
+2026-01-21 10:50:13,274 - app - INFO - Application shutting down
+2026-01-21 10:50:13,274 - root - INFO - Logging handlers flushed
+2026-01-21 10:52:58,144 - app - INFO - Starting Scalable Intern API
+2026-01-21 10:54:13,527 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2026-01-21 10:54:13,527 - python_multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2026-01-21 10:54:13,527 - python_multipart.multipart - DEBUG - Calling on_header_value with data[63:89]
+2026-01-21 10:54:13,529 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2026-01-21 10:54:13,529 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2026-01-21 10:54:13,531 - python_multipart.multipart - DEBUG - Calling on_part_data with data[93:119]
+2026-01-21 10:54:13,531 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2026-01-21 10:54:13,531 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2026-01-21 10:54:13,531 - python_multipart.multipart - DEBUG - Calling on_header_field with data[163:182]
+2026-01-21 10:54:13,531 - python_multipart.multipart - DEBUG - Calling on_header_value with data[184:210]
+2026-01-21 10:54:13,533 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2026-01-21 10:54:13,533 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2026-01-21 10:54:13,533 - python_multipart.multipart - DEBUG - Calling on_part_data with data[214:224]
+2026-01-21 10:54:13,533 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2026-01-21 10:54:13,533 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2026-01-21 10:54:13,546 - passlib.handlers.bcrypt - DEBUG - detected 'bcrypt' backend, version '3.2.2'
+2026-01-21 10:54:13,546 - passlib.handlers.bcrypt - DEBUG - 'bcrypt' backend lacks $2$ support, enabling workaround
+2026-01-21 10:55:24,176 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2026-01-21 10:55:24,177 - python_multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2026-01-21 10:55:24,178 - python_multipart.multipart - DEBUG - Calling on_header_value with data[63:89]
+2026-01-21 10:55:24,178 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2026-01-21 10:55:24,178 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2026-01-21 10:55:24,179 - python_multipart.multipart - DEBUG - Calling on_part_data with data[93:109]
+2026-01-21 10:55:24,179 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2026-01-21 10:55:24,179 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2026-01-21 10:55:24,179 - python_multipart.multipart - DEBUG - Calling on_header_field with data[153:172]
+2026-01-21 10:55:24,180 - python_multipart.multipart - DEBUG - Calling on_header_value with data[174:200]
+2026-01-21 10:55:24,180 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2026-01-21 10:55:24,180 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2026-01-21 10:55:24,180 - python_multipart.multipart - DEBUG - Calling on_part_data with data[204:215]
+2026-01-21 10:55:24,181 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2026-01-21 10:55:24,181 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2026-01-21 10:55:49,208 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2026-01-21 10:55:49,208 - python_multipart.multipart - DEBUG - Calling on_header_field with data[42:61]
+2026-01-21 10:55:49,208 - python_multipart.multipart - DEBUG - Calling on_header_value with data[63:89]
+2026-01-21 10:55:49,208 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2026-01-21 10:55:49,208 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2026-01-21 10:55:49,208 - python_multipart.multipart - DEBUG - Calling on_part_data with data[93:120]
+2026-01-21 10:55:49,208 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2026-01-21 10:55:49,208 - python_multipart.multipart - DEBUG - Calling on_part_begin with no data
+2026-01-21 10:55:49,208 - python_multipart.multipart - DEBUG - Calling on_header_field with data[164:183]
+2026-01-21 10:55:49,208 - python_multipart.multipart - DEBUG - Calling on_header_value with data[185:211]
+2026-01-21 10:55:49,219 - python_multipart.multipart - DEBUG - Calling on_header_end with no data
+2026-01-21 10:55:49,219 - python_multipart.multipart - DEBUG - Calling on_headers_finished with no data
+2026-01-21 10:55:49,220 - python_multipart.multipart - DEBUG - Calling on_part_data with data[215:225]
+2026-01-21 10:55:49,220 - python_multipart.multipart - DEBUG - Calling on_part_end with no data
+2026-01-21 10:55:49,220 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_name with data[0:10]
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_data with data[11:19]
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_name with data[20:28]
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_data with data[29:57]
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_name with data[58:66]
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_data with data[67:79]
+2026-01-21 10:56:24,734 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2026-01-21 10:56:24,738 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2026-01-21 10:56:24,739 - python_multipart.multipart - DEBUG - Calling on_field_name with data[80:85]
+2026-01-21 10:56:24,739 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2026-01-21 10:56:24,739 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2026-01-21 10:56:24,739 - python_multipart.multipart - DEBUG - Calling on_field_name with data[87:96]
+2026-01-21 10:56:24,740 - python_multipart.multipart - DEBUG - Calling on_field_data with data[97:103]
+2026-01-21 10:56:24,740 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2026-01-21 10:56:24,740 - python_multipart.multipart - DEBUG - Calling on_field_start with no data
+2026-01-21 10:56:24,741 - python_multipart.multipart - DEBUG - Calling on_field_name with data[104:117]
+2026-01-21 10:56:24,741 - python_multipart.multipart - DEBUG - Calling on_field_data with data[118:126]
+2026-01-21 10:56:24,741 - python_multipart.multipart - DEBUG - Calling on_field_end with no data
+2026-01-21 10:56:24,741 - python_multipart.multipart - DEBUG - Calling on_end with no data
+2026-01-21 11:01:12,434 - app - INFO - Application shutting down
+2026-01-21 11:01:12,435 - root - INFO - Logging handlers flushed
